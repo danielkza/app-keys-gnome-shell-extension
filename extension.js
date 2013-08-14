@@ -57,7 +57,7 @@ function enable() {
 	global.display.add_keybinding('app-key5', settings, Meta.KeyBindingFlags.NONE, clickClosure(4));
 	Main.wm.setCustomKeybindingHandler('app-key5', Shell.KeyBindingMode.NORMAL, clickClosure(4));
 
-	gobal.display.add_keybinding('app-key6', settings, Meta.KeyBindingFlags.NONE, clickClosure(5));
+	global.display.add_keybinding('app-key6', settings, Meta.KeyBindingFlags.NONE, clickClosure(5));
 	Main.wm.setCustomKeybindingHandler('app-key6', Shell.KeyBindingMode.NORMAL, clickClosure(5));
 
 
